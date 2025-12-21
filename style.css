@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(228, 234, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 500px;
+    padding-top:75px ;
+
+    
+   
+}
+.praint{
+    height: 575px;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+/* .profilpic{
+    position: fixed;
+    align-items: center;
+} */
+ .profilpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+#pic{
+
+    border-radius: 50%;
+
+}
+.name{
+    /* margin-left: 75px; */
+    margin-bottom: 1pxs;
+}
+.work{
+    /* margin-left: 125px; */
+    margin-top: 1px;
+    color: rgb(154, 154, 154);
+   
+}
+.line{
+    background-color: grey;
+    height:0.5px ;
+    width: 350px;
+    margin-left: 30px;
+}
+.info{
+    color: rgb(170, 168, 168);
+    font-size: 17px;
+    text-align: center;
+    width: 350px;
+    margin-left: 15px;
+}
+button{
+    background-color: rgb(23, 124, 255);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    border: 0px;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+button:hover{
+    cursor: pointer;
+}
+button::after{
+    color: blueviolet;
+}
+.linee{
+    background-color: grey;
+    height:0.5px ;
+    width: 350px;
+    margin-left: 15px;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* flex-direction: row;
+    align-items: center; */
+    /* padding-left: 100px; */
+}
+.logo{
+
+    margin: 14px;
+    height: 30px;
+    width: 30px;
+    
+}
