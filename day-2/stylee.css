@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(230, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.praint{
+    background-color:white;
+    margin-top: 30px;
+    padding-left: 25px;
+    height: 670px;
+    width: 475px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.profilpic {
+    border-radius: 50%;
+    height: 40px;
+    
+}
+.name{
+    margin: 0px;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.date{
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: rgb(161, 161, 161);
+}
+.baner{
+    height: 150px;
+    width: 450px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.para{
+    font-size: 13px;
+    padding-right: 20px;
+    width: 460px;
+    color: rgb(69, 69, 69);
+    margin-right: 20px;
+}
+.key{
+    font-size: 18px;
+    font: bold;
+}
+.points{
+    margin-left: 30px;
+    font-size: 13px;
+    color: rgb(69, 69, 69);
+
+}
+.important{
+
+}
+.para2{
+    font-size: 13px;
+    color:  rgb(69, 69, 69);
+    width: 460px;
+}
+.para3{
+    font-size: 13px;
+    color:  rgb(69, 69, 69);
+    width: 460;
+}
